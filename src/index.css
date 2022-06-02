@@ -1,0 +1,94 @@
+body {
+  color: #70798C;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 90%;
+  width: 40%;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.row {
+  display: flex;
+}
+
+.node {
+  height: 50px;
+  width:50px;
+  border: 1px solid black;
+  background-color: #DDFFF7;
+  transition: background-color .5s ease-in-out;
+}
+
+.unpassable {
+  background-color: grey;
+  transition: background-color .5s ease-in-out;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  min-width: 400px;
+}
+
+.button {
+  text-align: center;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.passed {
+  background-color: #2D93AD;
+  transition: background-color .5s ease-in-out;
+}
+
+.start {
+  background-color: #76DBC2;
+}
+
+.end {
+  background-color: #D1495B
+}
+
+.hidden {
+  background-color: #001011;
+  transition: background-color .5s ease-in-out
+}
+
+.instructions {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+}
